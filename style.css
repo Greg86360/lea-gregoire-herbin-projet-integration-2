@@ -1,0 +1,267 @@
+.mockups {
+    background-image: url('images/screen-mockups.svg');
+    height: 850px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+header {
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    object-fit: contain;
+}
+
+.try {
+    color: hsl(322, 100%, 66%);
+    border: hsl(322, 100%, 66%) 1px solid;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 50px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
+}
+
+h1, h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.intro>p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.started {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 400px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+    padding: 100px;
+}
+
+.icone {
+    width:50px;
+    height: 50px;
+}
+
+.numbers {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.legend {
+    color: hsl(202, 6%, 75%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size:20px;
+
+}
+
+.together {
+    background-color:#F6FBFF;
+    height: 570px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.wave_top {
+    background-image: url("images/bg-section-top-desktop-1.svg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wave_bottom {
+    background-image: url("images/bg-section-bottom-desktop-1.svg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.grow {
+    width: 510px;
+}
+
+.grow>p, .your_users>p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+.img-grow {
+    width: 550px;
+}
+
+.flowing {
+    height: 570px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conversations {
+    width: 600px;
+}
+
+.conversations>p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.wave_top_2 {
+    background-image: url('images/bg-section-top-desktop-2.svg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wave_bottom_2 {
+    background-image: url('images/bg-section-bottom-desktop-2.svg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.users {
+    background-color: #F6FBFF;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.your_users {
+    width: 500px;
+}
+
+.content-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 170px 0 ;
+}
+
+.wave_footer {
+    background-image: url('images/bg-footer-top-desktop.svg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    height: 700px;
+    background-color: #00252E;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo_white {
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+
+.contact {
+    width: 330px;
+    height: 370px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    /* padding: 15px; */
+}
+
+.icone_footer {
+    margin-right: 10px;
+}
+
+.reseaux {
+    margin-top: 70px;
+}
+
+.mx-20 {
+    margin: 0 20px
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.newsletter {
+    width : 400px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.newsletter>h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+input {
+    width: 315px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.subscribe {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-left: 40px;
+}
