@@ -1,6 +1,7 @@
 .mockups {
     background-image: url('images/screen-mockups.svg');
     height: 850px;
+    margin: 0 50px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -44,6 +45,10 @@ h1, h2 {
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
 }
 
 .intro>p {
@@ -264,4 +269,128 @@ input {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     margin-left: 40px;
+}
+
+@media (max-width:1000px){
+
+    .mockups {
+        height: 600px;
+    }
+
+    .data {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .img-grow {
+        width:400px;
+    }
+
+    .together, .users {
+        flex-direction: column-reverse;
+    }
+
+    .grow {
+        margin-top: 50px;
+    }
+
+    .flowing {
+        flex-direction: column;
+        margin-block: 100px;
+    }
+
+    .conversations {
+        margin-top: 50px;
+        width: 510px;
+    }
+
+    .users {
+        height: 500px;
+    }
+
+    .your_users {
+        margin-top: 50px;
+    }
+
+    h2,  .grow>p, .your_users>p, .conversations>p { 
+        text-align: center;
+        padding-inline: 50px;
+    }
+
+    
+    h2 {
+        font-size: 30px;
+        padding: 0 50px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .intro>p{
+        width: initial;
+    }
+    
+    .logo {
+        width: 150px;
+    }
+
+    header {
+        padding: 50px;
+        padding-bottom: 0;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        padding: 50px 50px;
+    }
+
+    .started {
+        width: 300px;
+        height: 50px;
+    }
+
+    .numbers {
+        font-size: 70px;
+    }
+
+    .logo_white {
+        width: 200px;
+    }
+    
+    input {
+        width: 300px;
+    }
+
+    .subscribe {
+        margin-left: 30px;
+        width: 150px;
+    }
+    
+    .contact {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:600px){
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .newsletter {
+        margin-top: 50px;
+    }
+   
+    footer {
+        height: 750px;
+    }
 }
